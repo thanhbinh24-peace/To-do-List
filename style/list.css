@@ -88,3 +88,15 @@ ul li.check {
 ul li.check::before {
   background-image: url('./img/checked.png');
 }
+ul li span {
+  position: absolute;
+  right: 10px;
+  top: 14px;
+  width: 25px;
+  height: 25px;
+  color: rgb(200, 150, 150);
+}
+ul li span:hover {
+  color: black;
+  text-decoration: line-through;
+}
