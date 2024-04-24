@@ -85,6 +85,6 @@ ul li.check {
   color: gray;
   font-style: italic;
 }
-ul.li.check::before {
-  background-image: url('img/checked.png');
+ul li.check::before {
+  background-image: url('./img/checked.png');
 }
