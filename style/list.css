@@ -21,7 +21,9 @@
   border-radius: 15px;
 }
 .to-do-list h3 {
-  color: white;
+  color: midnightblue;
+  font-weight: bold;
+  font-family: papyrus;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -41,6 +43,9 @@
   margin-bottom: 20px;
 }
 input {
+  color: midnightblue;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
   flex: 1;
   border-style: none;
   padding: 15px;

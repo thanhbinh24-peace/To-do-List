@@ -28,4 +28,3 @@ function resetInput() {
     listContainer.removeChild(listContainer.firstChild);
   }
 }
-
