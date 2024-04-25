@@ -5,7 +5,7 @@
   font-family: 'Popins', sans-serif;
 }
 .container {
-  background-image: url('./img/pink.jpeg');
+  background-image: url('./img/letitbe.jpeg');
   background-repeat: no-repeat;
   background-size: 100% 100%;
   width: 100%;
@@ -14,7 +14,7 @@
 }
 .menu-bar {
   display: flex;
-  justify-content: space-between;
+  justify-content:flex-start;
   width: 100%;
   border-radius: 20px;
 }
@@ -23,18 +23,19 @@
 }
 .logo h3 {
   padding: 20px;
-  color: midnightblue;
+  color: navy;
   font-weight: bold;
   font-family: Copperplate;
   font-size: 36px;
+  cursor: wait;
 }
 ul li {
   display: inline-block;
-  padding: 25px;
+  padding: 30px;
   font-size: 18px;
 }
 li a {
-  color: midnightblue;
+  color: navy;
   text-decoration: none;
   font-weight: bold;
 }
@@ -60,6 +61,9 @@ li a:hover {
   padding-top: 15px;
   padding-bottom: 15px;
   color: rgb(53, 38, 32);
+  font-family: fantasy;
+  font-weight: bold;
+  font-size: 25px;
 }
 .intro p {
   line-height: 25px;
