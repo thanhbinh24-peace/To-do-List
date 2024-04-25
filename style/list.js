@@ -14,11 +14,18 @@ function addTasks() {
   }
   inputText.value = "";
 }
-listContainer.addEventListener("click", function(e) {
+listContainer.addEventListener("click", function(e){
     if (e.target.tagName === "LI") {
-      e.target.classList.toggle("checked");
+      e.target.classList.toggle("check");
     }
     else if (e.target.tagName === "SPAN") {
       e.target.parentElement.remove();
     }
 }, false);
+function resetInput() {
+  inputText.value = "";
+  while (listContainer.firstChild) {
+    listContainer.removeChild(listContainer.firstChild);
+  }
+}
+
