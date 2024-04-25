@@ -13,13 +13,16 @@ function addTasks() {
     li.appendChild(span);
   }
   inputText.value = "";
+  saveTask();
 }
 listContainer.addEventListener("click", function(e){
     if (e.target.tagName === "LI") {
       e.target.classList.toggle("check");
+      saveTask();
     }
     else if (e.target.tagName === "SPAN") {
       e.target.parentElement.remove();
+      saveTask();
     }
 }, false);
 function resetInput() {
@@ -28,3 +31,10 @@ function resetInput() {
     listContainer.removeChild(listContainer.firstChild);
   }
 }
+function saveTask() {
+  localStorage.setItem("task", listContainer.innerHTML)
+}
+function showTask() {
+  listContainer.innerHTML = localStorage.getItem("task");
+}
+showTask();
