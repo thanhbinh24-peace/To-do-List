@@ -2,7 +2,7 @@ const inputText = document.getElementById("type-text");
 const listContainer = document.getElementById("list-contanier");
 function addTasks() {
   if (inputText.value=== "") {
-    alert("You must write something in the box");
+    alert("You must write something in the text box");
   }
   else {
     let li = document.createElement("li");
