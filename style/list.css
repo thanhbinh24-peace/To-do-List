@@ -63,9 +63,11 @@ button {
 }
 button#add {
   color: green;
+  font-weight: bold;
 }
 button#reset {
   color: red;
+  font-weight: bold;
 }
 ul li {
   list-style-type: none;
@@ -104,7 +106,7 @@ ul li span {
   top: 14px;
   width: 25px;
   height: 25px;
-  color: tomato;
+  color: rgba(255, 0, 0, 0.5);
 }
 ul li span:hover {
   color: black;
