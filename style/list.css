@@ -69,6 +69,7 @@ ul li {
   padding: 15px 10px 10px 60px;
   cursor: pointer;
   position: relative;
+  color: navy;
 }
 ul li::before {
   content: '';
@@ -101,4 +102,12 @@ ul li span {
 ul li span:hover {
   color: black;
   text-decoration: line-through;
+}
+button#add:hover {
+  background-color:green;
+  color: white;
+}
+button#reset:hover {
+  background-color:yellow;
+  color: green;
 }
