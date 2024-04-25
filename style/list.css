@@ -7,7 +7,7 @@
 .container {
   width: 100%;
   min-height: 100vh;
-  background-image: url('./img/bg.jpeg');
+  background-image: url('./img/login.jpg');
   background-repeat: no-repeat;
   background-size: 100% 100%;
   padding: 15px;
@@ -74,7 +74,7 @@ ul li {
   padding: 15px 10px 10px 60px;
   cursor: pointer;
   position: relative;
-  color: midnightblue;
+  color: navy;
   font-family: 'Courier New', Courier, monospace;
   font-weight: bold;
 }

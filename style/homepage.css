@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Popins', sans-serif;
+}
+.container {
+  background-image: url('./img/pink.jpeg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 100%;
+  min-height: 100vh;
+  padding: 15px;
+}
+.menu-bar {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  border-radius: 20px;
+}
+.logo {
+  margin-right: 60px;
+}
+.logo h3 {
+  padding: 20px;
+  color: midnightblue;
+  font-weight: bold;
+  font-family: Copperplate;
+  font-size: 36px;
+}
+ul li {
+  display: inline-block;
+  padding: 25px;
+  font-size: 18px;
+}
+li a {
+  color: midnightblue;
+  text-decoration: none;
+  font-weight: bold;
+}
+li a:hover {
+  text-decoration: underline;
+  font-style: italic;
+}
+.info img {
+  width: 100px;
+  background-color: transparent;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  margin-left: 20px;
+  max-width: 400px;
+  background-color: rgba(255, 208, 215, 0.9);
+  border-radius: 20px;
+  padding: 20px;
+}
+.intro h3 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: rgb(53, 38, 32);
+}
+.intro p {
+  line-height: 25px;
+  color: navy;
+  padding-bottom: 15px;
+}
+.button button {
+  border: none;
+  padding: 20px;
+  font-size: 18px;
+  border-radius: 10px;
+  background-color:azure;
+}
+.button button a {
+  text-decoration: none;
+  color: green;
+  font-family: Copperplate;
+}
+.button button:hover {
+  background-color: yellow;
+}
+.button button a::before {
+  font-family: 'FontAwesome';
+  content: "\f061";
+  padding-right: 10px;
+}
+.button button a:hover {
+  font-style: italic;
+  color: dodgerblue;
+}
