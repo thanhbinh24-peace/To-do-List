@@ -74,7 +74,9 @@ ul li {
   padding: 15px 10px 10px 60px;
   cursor: pointer;
   position: relative;
-  color: navy;
+  color: midnightblue;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
 }
 ul li::before {
   content: '';
