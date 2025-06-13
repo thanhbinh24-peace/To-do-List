@@ -120,3 +120,59 @@ button#reset:hover {
   background-color:yellow;
   color: green;
 }
+
+@media (max-width: 768px) {
+  .to-do-list {
+    margin: 50px auto;
+    padding: 25px 15px;
+  }
+
+  .to-do-list h3 {
+    font-size: 20px;
+    flex-direction: column;
+  }
+
+  .to-do-list h3 img {
+    width: 40px;
+    margin-left: 0;
+    margin-top: 10px;
+  }
+
+  .box-content {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+    padding-left: 0;
+  }
+
+  input {
+    width: 100%;
+    margin-right: 0;
+    padding: 12px;
+    font-size: 16px;
+  }
+
+  button {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    margin: 5px 0;
+  }
+
+  ul li {
+    font-size: 16px;
+    padding-left: 50px;
+  }
+
+  ul li::before {
+    width: 20px;
+    height: 20px;
+    top: 14px;
+    left: 10px;
+  }
+
+  ul li span {
+    right: 5px;
+    top: 12px;
+  }
+}

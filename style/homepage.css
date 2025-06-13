@@ -121,3 +121,50 @@ li a:hover {
   font-style: italic;
   font-weight: bold;
 }
+
+@media (max-width: 768px) {
+  .menu-bar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  ul li {
+    display: block;
+    padding: 10px 20px;
+  }
+
+  .box {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  .text, .benefit {
+    max-width: 100%;
+    margin-left: 0;
+  }
+
+  .logo h3 {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo h3 {
+    font-size: 24px;
+  }
+
+  .intro h3 {
+    font-size: 20px;
+  }
+
+  .button button {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .container {
+    padding: 10px;
+    background-size: cover;
+  }
+}
